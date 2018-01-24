@@ -64,7 +64,7 @@
 
     // TODO: execute this loop the number of times user requested
     while( counter <= howMany){
-      console.log("Wheee! This is the ", counter, " time we've done this!");
+      console.log("Wheee! This is the " + counter + " time we've done this!");
 
       // find value of counter modulo length of sources array-
       // this value will increase by one on each iteration of the loop,
@@ -74,9 +74,9 @@
       theImg.setAttribute("src", imageSources[theOne]);
       
       // TODO: increment the counter
-            counter=counter++;
-
+            counter++;
     }
+
     console.log("Wow! That was great!")
 
     // EXTRA CHALLENGES:
